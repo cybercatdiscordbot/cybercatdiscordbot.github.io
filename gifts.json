@@ -1,0 +1,14 @@
+{
+    "gifts": [
+        {
+            "giftname": "gift name",
+            "giftcode": 123456789,
+            "cost": 12
+        },
+        {
+            "giftname": "gift name",
+            "giftcode": 123456789,
+            "cost": 12
+        }
+    ]
+}
