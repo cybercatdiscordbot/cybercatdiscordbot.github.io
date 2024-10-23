@@ -80,25 +80,165 @@
                     
                     <div class="commands-section" id="Category0">
                         
-                        <div class="accordion accordion-flush mt-2" id="say">
+                        <div class="accordion accordion-flush mt-2" id="reactionrole">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fsay">
-                                         /say&nbsp; <span class="command-descreption">- Bot will repeat what you say.</span>
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#freactionrole">
+                                         /reactionrole&nbsp; <span class="command-descreption">- Add a reaction role message in a channel.</span>
                                     </button>
                                 </h2>
-                                <div id="fsay" class="accordion-collapse collapse" data-bs-parent="#say">
+                                <div id="freactionrole" class="accordion-collapse collapse" data-bs-parent="#reactionrole">
                                     <div class="accordion-body">
                                         <span>Usage Examples:</span> <br />
                                         <span class="examples">
                                             
-                                                /say hello bot. i love you.
+                                                /reactionrole #react-role-channel @VipRole React to this message to get VIP Role.
                                             
                                         </span>
                                     </div>
                                 </div>
                             </div>
-                        </div>                      
+                        </div>
+                        
+                        <div class="accordion accordion-flush mt-2" id="createpoll">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fcreatepoll">
+                                         /poll createpoll&nbsp; <span class="command-descreption">- Create a poll message.</span>
+                                    </button>
+                                </h2>
+                                <div id="fcreatepoll" class="accordion-collapse collapse" data-bs-parent="#createpoll">
+                                    <div class="accordion-body">
+                                        <span>Usage Examples:</span> <br />
+                                        <span class="examples">
+                                            
+                                            /poll createpoll What is your favorite color? red,blue,green,yellow False 7 #my-text-channel
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-flush mt-2" id="deletepoll">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fdeletepoll">
+                                         /poll deletepoll&nbsp; <span class="command-descreption">- Delete a poll by using ID.</span>
+                                    </button>
+                                </h2>
+                                <div id="fdeletepoll" class="accordion-collapse collapse" data-bs-parent="#deletepoll">
+                                    <div class="accordion-body">
+                                        <span>Usage Examples:</span> <br />
+                                        <span class="examples">
+                                            
+                                            /poll deletepoll 987654321123456789 #my-text-channel
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-flush mt-2" id="configgemini">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fconfiggemini">
+                                         /config gemini&nbsp; <span class="command-descreption">- Enable/Disable Gemini AI.</span>
+                                    </button>
+                                </h2>
+                                <div id="fconfiggemini" class="accordion-collapse collapse" data-bs-parent="#configgemini">
+                                    <div class="accordion-body">
+                                        <span>Usage Examples:</span> <br />
+                                        <span class="examples">
+                                            
+                                            /config gemini Activate
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-flush mt-2" id="configgreeting">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fconfiggreeting">
+                                         /config greeting&nbsp; <span class="command-descreption">- Set your Greeting message whenever a User enter in your Server.</span>
+                                    </button>
+                                </h2>
+                                <div id="fconfiggreeting" class="accordion-collapse collapse" data-bs-parent="#configgreeting">
+                                    <div class="accordion-body">
+                                        <span>Usage Examples:</span> <br />
+                                        <span class="examples">
+                                            
+                                            /config greeting #welcome-greetings-channel Welcome {user} happy to have you here :)
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-flush mt-2" id="configallowlink">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fconfigallowlink">
+                                         /config allowlink&nbsp; <span class="command-descreption">- Allow or Disallow sending links in channel.</span>
+                                    </button>
+                                </h2>
+                                <div id="fconfigallowlink" class="accordion-collapse collapse" data-bs-parent="#configallowlink">
+                                    <div class="accordion-body">
+                                        <span>Usage Examples:</span> <br />
+                                        <span class="examples">
+                                            
+                                            /config allowlink #my-text-channel False
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-flush mt-2" id="configaddbadword">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fconfigaddbadword">
+                                         /config addbadword&nbsp; <span class="command-descreption">- Add a badword in BadWords List.</span>
+                                    </button>
+                                </h2>
+                                <div id="fconfigaddbadword" class="accordion-collapse collapse" data-bs-parent="#configaddbadword">
+                                    <div class="accordion-body">
+                                        <span>Usage Examples:</span> <br />
+                                        <span class="examples">
+                                            
+                                            /config addbadword fcuk
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion accordion-flush mt-2" id="configdelbadword">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#fconfigdelbadword">
+                                         /config delbadword&nbsp; <span class="command-descreption">- Delete a badword from BadWords List.</span>
+                                    </button>
+                                </h2>
+                                <div id="fconfigdelbadword" class="accordion-collapse collapse" data-bs-parent="#configdelbadword">
+                                    <div class="accordion-body">
+                                        <span>Usage Examples:</span> <br />
+                                        <span class="examples">
+                                            
+                                            /config delbadword fcuk<br/>/config delbadword 1
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                             
                     </div>
                 
