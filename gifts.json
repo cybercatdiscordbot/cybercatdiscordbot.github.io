@@ -35,6 +35,12 @@
             "giftcode": 1298910222592512042,
             "cost": 30,
             "gid": 6
+        },
+        {
+            "giftname": "HalloweenCat",
+            "giftcode": 1298956647124701224,
+            "cost": 30,
+            "gid": 6
         }
     ]
 }
