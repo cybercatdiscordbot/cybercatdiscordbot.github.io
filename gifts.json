@@ -2,27 +2,39 @@
     "gifts": [
         {
             "giftname": "Rose",
-            "giftcode": 1298187233697726485,
+            "giftcode": 1298187233697726500,
             "cost": 15,
             "gid": 1
         },
         {
             "giftname": "Heart",
-            "giftcode": 1298188018557124609,
+            "giftcode": 1298188018557124600,
             "cost": 20,
             "gid": 2
         },
         {
             "giftname": "SparkleHeart",
-            "giftcode": 1298188032117047296,
+            "giftcode": 1298188032117047300,
             "cost": 20,
             "gid": 3
         },
         {
             "giftname": "Birthdaycake",
-            "giftcode": 1298241858702676041,
+            "giftcode": 1298241858702676000,
             "cost": 25,
             "gid": 4
+        },
+        {
+            "giftname": "HappyDiwali",
+            "giftcode": 1298909732349939700,
+            "cost": 35,
+            "gid": 5
+        },
+        {
+            "giftname": "HappyDeepavali",
+            "giftcode": 1298910222592512000,
+            "cost": 30,
+            "gid": 6
         }
     ]
 }
